@@ -2,7 +2,9 @@
 Simple docker container with Strudel REPL inside
 
 # Installation
+```
 sudo chmod +x ./init.sh ; ./init.sh
+```
 
 # Build
 ```
