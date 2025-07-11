@@ -242,12 +242,12 @@ create_script "${CLEAN_SCRIPT_NAME}" "down" \
   "" "" \
   "" "${MESSAGE_POST_COMMAND_CLEAN}"
 
-echo "Step 7: Verifying helper scripts are executable..."
+echo "Step 7: Verifying recipes are prepared..."
 chmod +x "${HOME}/${BAKE_SCRIPT_NAME}" \
          "${HOME}/${TASTE_SCRIPT_NAME}" \
          "${HOME}/${CHILL_SCRIPT_NAME}" \
          "${HOME}/${CLEAN_SCRIPT_NAME}" \
-&& echo "Step 7: All helper scripts are now executable."
+&& echo "Step 7: All recipes are now prepared."
 
 echo "--- Bakery Setup Complete ---"
 echo "The Strudel Bakery environment has been set up."
