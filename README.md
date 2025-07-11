@@ -1,5 +1,5 @@
 # strudel-docker-container
-Simple docker container with Strudel REPL inside ꩜
+Simple docker container with Strudel REPL inside [꩜](https://strudel.cc/)
 
 # Installation
 ```
